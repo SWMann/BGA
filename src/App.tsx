@@ -1,9 +1,8 @@
 import "./App.css";
-import Navbar from "@/components/Navbar.tsx";
 import LandingPage from "@/pages/LandingPage.tsx";
 import Introduction from "@/pages/Introduction";
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import UnitManagment from "@/pages/UnitManagment"
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import UnitManagment from "@/pages/UnitManagment";
 
 function App() {
   return (
@@ -13,7 +12,6 @@ function App() {
           <Route path="/" element={<LandingPage />} />
           <Route path="/introduction" element={<Introduction />} />
           <Route path="/unitmanagment" element={<UnitManagment />} />
-
         </Routes>
       </BrowserRouter>
     </>
