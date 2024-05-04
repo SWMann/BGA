@@ -13,7 +13,7 @@ import {
   CardTitle,
 } from "@/components/ui/card.tsx";
 import Navbar from "@/components/Navbar";
-import { Button } from "@/components/ui/button.tsx";
+// import { Button } from "@/components/ui/button.tsx";
 
 function Intro() {
   return (
